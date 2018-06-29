@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:C64ExpansionBreakout-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -48,7 +49,7 @@ GND
 Text GLabel 6800 4050 0    50   UnSpc ~ 0
 GND
 $Comp
-L Connector:Conn_02x02_Odd_Even J1
+L C64-Exp-Port:Conn_02x02_Odd_Even J1
 U 1 1 5ACD4D51
 P 1400 1100
 F 0 "J1" H 1450 1317 50  0000 C CNN
@@ -219,7 +220,7 @@ A1
 Text GLabel 5650 4400 2    50   UnSpc ~ 0
 A0
 $Comp
-L Connector:Conn_01x02 J2
+L C64-Exp-Port:Conn_01x02 J2
 U 1 1 5ACD5626
 P 1450 1600
 F 0 "J2" H 1529 1592 50  0000 L CNN

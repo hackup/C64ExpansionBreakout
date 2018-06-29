@@ -1,3 +1,21 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP Conn_01x02
+D Generic connector, single row, 01x02
+K connector
+F ~
+$ENDCMP
+#
+$CMP Conn_01x38_Male
+D Generic connector, single row, 01x38
+K connector
+F ~
+$ENDCMP
+#
+$CMP Conn_02x02_Odd_Even
+D Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers)
+K connector
+F ~
+$ENDCMP
+#
 #End Doc Library
