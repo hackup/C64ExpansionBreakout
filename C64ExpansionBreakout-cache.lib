@@ -286,6 +286,24 @@ X 2 2 200 0 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
+# device:C
+#
+DEF device:C C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "device:C" 25 -100 50 H V L CNN
+F2 "" 38 -150 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # device:Jumper_NO_Small
 #
 DEF device:Jumper_NO_Small JP 0 30 N N 1 F N

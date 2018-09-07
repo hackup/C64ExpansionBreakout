@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "C64ExpansionBreakout"
-Date ""
-Rev ""
+Date "2018-09-07"
+Rev "Rev.2"
 Comp "hackup.net"
 Comment1 ""
 Comment2 ""
@@ -525,4 +525,37 @@ Wire Wire Line
 	1850 6050 1850 5950
 Connection ~ 2400 6050
 Connection ~ 1850 5950
+$Comp
+L device:C C1
+U 1 1 5B921DF0
+P 3700 5850
+F 0 "C1" H 3815 5896 50  0000 L CNN
+F 1 "100n" H 3815 5805 50  0000 L CNN
+F 2 "Capacitors_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 3738 5700 50  0001 C CNN
+F 3 "~" H 3700 5850 50  0001 C CNN
+	1    3700 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0111
+U 1 1 5B921ECA
+P 3700 5700
+F 0 "#PWR0111" H 3700 5550 50  0001 C CNN
+F 1 "+5V" H 3715 5873 50  0000 C CNN
+F 2 "" H 3700 5700 50  0001 C CNN
+F 3 "" H 3700 5700 50  0001 C CNN
+	1    3700 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0112
+U 1 1 5B921EE9
+P 3700 6000
+F 0 "#PWR0112" H 3700 5750 50  0001 C CNN
+F 1 "GND" H 3705 5827 50  0000 C CNN
+F 2 "" H 3700 6000 50  0001 C CNN
+F 3 "" H 3700 6000 50  0001 C CNN
+	1    3700 6000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
