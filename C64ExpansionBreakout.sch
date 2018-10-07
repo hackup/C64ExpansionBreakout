@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "C64ExpansionBreakout"
-Date "2018-09-07"
-Rev "Rev.2"
+Date "2018-10-07"
+Rev "Rev. 2.1"
 Comp "hackup.net"
 Comment1 ""
 Comment2 ""
@@ -20,7 +20,7 @@ U 1 1 5ACD4B27
 P 7550 3000
 F 0 "U1" H 7550 4415 50  0000 C CNN
 F 1 "C64-Exp-Port" H 7550 4324 50  0000 C CNN
-F 2 "Sukko:C64-Cart-NoSilkS" H 7550 1550 50  0001 C CNN
+F 2 "C64-Exp-Port:C64-Cart-NoSilkS" H 7550 1550 50  0001 C CNN
 F 3 "DOCUMENTATION" H 7550 1450 50  0001 C CNN
 	1    7550 3000
 	1    0    0    -1  
