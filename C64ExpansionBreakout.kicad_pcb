@@ -13,7 +13,7 @@
   (title_block
     (title C64ExpansionBreakout)
     (date 2018-09-07)
-    (rev Rev.2)
+    (rev "Rev. 2.1")
     (company hackup.net)
   )
 
@@ -1366,7 +1366,7 @@
   (gr_line (start 158.242 140.716) (end 158.242 105.156) (angle 90) (layer Edge.Cuts) (width 0.15) (tstamp 5B9A2EB5))
   (gr_line (start 100.203 104.648) (end 98.552 103.124) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 100.203 140.716) (end 100.203 104.648) (angle 90) (layer Edge.Cuts) (width 0.15) (tstamp 5ACD02B2))
-  (gr_text "Rev.2\ngithub.com/hackup/C64ExpansionBreakout" (at 196.85 102.108) (layer F.SilkS)
+  (gr_text "Rev. 2.1\ngithub.com/hackup/C64ExpansionBreakout" (at 196.85 102.108) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify right))
   )
   (gr_text +5V (at 104.7115 72.5805) (layer F.SilkS) (tstamp 5AD5D85D)
