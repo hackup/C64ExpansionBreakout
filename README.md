@@ -15,3 +15,11 @@ This revision adds an optional on-board slot for either a 27c512 or 27c020 EPROM
 The first revision directly connects all 38 lines from the expansion port tho the breadboard. 5V and GND are connected to the matching rails on the breadboard. A reset button is added for convenience.
 
 ![Pi1541io Rev.1](media/C64ExpansionBreakout-Rev1.jpg)
+
+
+## License
+[![Creative Commons License](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)
+](http://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+This work is licensed under a
+[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
